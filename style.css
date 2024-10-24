@@ -62,3 +62,75 @@
     text-align: center;
 }
 /* hero section styles end */
+/* card box styles start */
+#card-box{
+    margin: 50px 0;
+}
+.card-box-container{
+    width: 830px;
+    margin: 0 auto;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    opacity: .6;
+}
+#card-box .cards{
+    display: flex;
+}
+#card-box .cards .card{
+    width: 250px;
+    text-align: center;
+    margin: 8px 10px;
+}
+#card-box .cards .card .image-box{
+    width: 250px;
+}
+#card-box .cards .card .image-box img{
+    width: 100%;
+}
+.card .card-title{
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 7px 0;
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 7px 5px;
+}
+.card .card-off{
+    margin: 12px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(16, 16, 16);
+}
+.card .card-description{
+    margin: 12px 0;
+    font-size: 12px;
+}
+.card-box-container .card-btn button{
+    background-color: rgb(82, 195, 3);
+    width: 150px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.card-box-container .card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* card box styles end */
